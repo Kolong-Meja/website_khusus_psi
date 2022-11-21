@@ -8,6 +8,13 @@
   box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
 }
 
+.navbar-text {
+  font-family: 'Odibee Sans', cursive;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(255, 255, 255) !important;
+}
+
 .card-deck {
   margin-top: 150px;
 }
