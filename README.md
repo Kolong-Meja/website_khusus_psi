@@ -110,4 +110,52 @@ Dokumentasi: https://www.sublimetext.com/docs/command_line.html#mac
 Nah, disini kami akan memberikan 2 Contoh saja, bagaimana cara mengimplementasikan bahasa HTML dan CSS
 
 1. Silahkan kalian buka salah satu dari 2 Text Editor diatas.
-2. 
+2. Sekarang, kita perlu membuat file baru. Untuk caranya, akan kami berikan dibawah ini.
+
+khusus Visual Studio Code:
+klik **file > new file > inputkan nama file nya**
+
+khusus Sublime Text:
+klik **file > new file**
+
+- note : untuk nama file bebas.
+
+3. Apabila file baru sudah terbentuk, kita bisa langsung save file nya. Lalu, setelah itu kita ganti nama filenya dan jenis file nya. Untuk caranya akan kami jelaskan dibawah ini.
+
+khusus Visual Studio Code:
+- save file = klik **file > save**
+
+khusus Sublime Text:
+- save file = klik **file > save > masukkan nama file nya**
+
+kalau sudah, kita buka File Explorer (Windows) atau Repository apapun yang sesuai dengan OS masing-masing. Kita cari file yang kita buat sebelumnya. jika sudah ketemu maka, kita perlu mengganti jenis filenya menjadi **.html**.
+
+caranya: klik pada file, ketuk 2 kali, lalu tambahkan dibelakang nama file dengan **.html**.
+
+4. Apabila sudah, maka kita kembali ke Text Editor yang kita pakai. Lalu ketikkan kode yang ada dibawah ini.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>Ini adalah tampilan Website pertamaku</p>
+</body>
+</html>
+```
+
+5. Kalau sudah, kita perlu menyalakan web server XAMPP untuk bisa melihat secara jelas website yang telah kita buat.
+
+pertama, kita perlu membuka software XAMPP nya terlebih dahulu.
+kedua, kita klik **start** pada Module Apache dan MySql.
+ketiga, kita klik kanan pada file html kita.
+
+- note : lakukan klik kanan pada filenya, di file explorer, lalu pilih **open with atau open** ke browser yang kalian miliki.
+
+6. Website yang kita buat sudah muncul di depan layar laptop/pc. Namun, apabila sudah dirasa cukup, jangan lupa untuk menonaktifkan kembali Apache dan MySql nya, dengan cara, klik **stop** pada Module Apache dan MySql. 
