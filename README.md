@@ -152,10 +152,33 @@ caranya: klik pada file, ketuk 2 kali, lalu tambahkan dibelakang nama file denga
 
 5. Kalau sudah, kita perlu menyalakan web server XAMPP untuk bisa melihat secara jelas website yang telah kita buat.
 
-pertama, kita perlu membuka software XAMPP nya terlebih dahulu.
-kedua, kita klik **start** pada Module Apache dan MySql.
-ketiga, kita klik kanan pada file html kita.
+khusus Windows dan Mac OS:
+**pertama**, kita perlu membuka software XAMPP nya terlebih dahulu.
+**kedua**, kita klik **start** pada Module Apache dan MySql.
+**ketiga**, kita klik kanan pada file html kita.
 
 - note : lakukan klik kanan pada filenya, di file explorer, lalu pilih **open with atau open** ke browser yang kalian miliki.
 
+khusus Linux:
+
+ketikkan command seperti dibawah ini.
+
+```console
+your-name@bar:~$ /opt/lampp/lampp start
+Starting XAMPP for Linux 8.1.10-0...
+XAMPP: Starting Apache...ok.
+XAMPP: Starting MySQL...ok.
+```
+
 6. Website yang kita buat sudah muncul di depan layar laptop/pc. Namun, apabila sudah dirasa cukup, jangan lupa untuk menonaktifkan kembali Apache dan MySql nya, dengan cara, klik **stop** pada Module Apache dan MySql. 
+
+khusus Linux:
+
+ketikkan command seperti dibawah ini.
+
+```console
+your-name@bar:~$ /opt/lampp/lampp stop
+Stopping XAMPP for Linux 8.1.10-0...
+XAMPP: Stopping Apache...ok.
+XAMPP: Stopping MySQL...ok.
+```
